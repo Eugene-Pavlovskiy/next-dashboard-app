@@ -228,7 +228,19 @@ ChartJS.register(
   Legend
 );
 ```
-## Create new file `customers.jsx` in `page` directory
+## Create new files `customers.jsx` and `orders.jsx` in `page` directory
 ```bash
 rafce
 ```
+
+# Deploy app to Github Pages with CICD
+```bash
+git init
+git add .
+git commit -m "FirstDeploy"
+git branch -M main
+git push -u origin main
+```
+
+## Make Pages on Github
+In Pages/Build and deployment/Source choose GitHub Actions. Go to nextjs and commit
